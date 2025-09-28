@@ -104,7 +104,7 @@ export default function App() {
             <RainBackground />
             {pages[1].content}
             <h2 className="text-lg font-medium text-blue-900">In momentele noastre grele, tot cu tine vreau sa le petrec.</h2>
-            <p className="text-base text-gray-700 mt-4 max-w-xl text-center relative z-10">Stiu ca nu am capacitatea necesara mereu sa-mi exprim sentimentele cum ar trebui, si poate mai des decat as vrea ma exprim gresit si avem mici rupturi. Vreau sa stii totusi ca mereu ma gandesc la tine, si vreau sa faci parte din viata mea.</p>
+            <p className="text-base text-gray-700 mt-4 max-w-xl text-center relative z-10">Stiu ca nu am capacitatea necesara mereu sa-mi exprim sentimentele cum ar trebui, si poate mai des decat as vrea ma exprim gresit si avem mici rupturi. Vreau sa stii totusi ca mereu ma gandesc la tine, chiar daca poate cateodata nu pare.</p>
             <img src="/rain.jpg" alt="Rain" className="mt-6 w-64 h-auto rounded-lg shadow-lg relative z-10" />
           </motion.div>
         )}
