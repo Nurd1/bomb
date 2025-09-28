@@ -14,7 +14,7 @@ export default function App() {
 
   const totalPages = pages.length;
   const nextPage = () => setPage((prev) => Math.min(prev + 1, totalPages - 1));
-  const prevPage = () => setPage((prev) => Math.max(prev - 0, 0));
+  const prevPage = () => setPage((prev) => Math.max(prev - 1, 0));
 
   const BottomNav = () => (
     <motion.div className="fixed bottom-6 left-1/2 -translate-x-1/2 flex gap-6 z-50">
